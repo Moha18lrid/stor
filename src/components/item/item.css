@@ -1,0 +1,38 @@
+.item{
+    border: 1px solid #000000;
+    border-radius: 18px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    box-shadow: 0 0 10px 1px black;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+.old_price{
+    color: rgb(88, 88, 88);
+    text-decoration: line-through;
+}
+
+.item img{
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px black;
+    transition: .5s;
+    cursor: pointer;
+}
+.item img:hover{
+    scale: 1.05;
+}

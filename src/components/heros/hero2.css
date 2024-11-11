@@ -1,0 +1,41 @@
+.main2{
+    background: linear-gradient(#6e3609,#b8500a) ;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px black;
+}
+.rite2 img{
+    height: 200px;
+}
+.left2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.discription2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.left2 p{
+    width: 500px;
+}
+.left2 button{
+    width: 150px;
+    padding: 10px;
+    border: 0 solid black;
+    background: #ffe6cf;
+    color: rgb(0, 0, 0);
+    font-weight:500;
+    cursor: pointer;
+    transition: .5s;
+}
+.left2 button:hover{
+    background: #ffeb77;
+}
+.discription2 .date{
+    color: #00f0dc;
+}

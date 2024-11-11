@@ -1,0 +1,42 @@
+.main4{
+    background: linear-gradient(#53276d,#7500fa) ;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px black;
+}
+.rite4 img{
+    height: 200px;
+}
+.left4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.discription4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.left4 p{
+    width: 500px;
+}
+.left4 button{
+    width: 150px;
+    padding: 10px;
+    border: 0 solid black;
+    background: #ffa600;
+    color: #000000;
+    font-weight:500;
+    cursor: pointer;
+    transition: .5s;
+}
+.left4 button:hover{
+    background: #ffc400;
+
+}
+.discription4 .date4{
+    color: #eeff00;
+}
