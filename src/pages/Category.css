@@ -1,0 +1,41 @@
+.category .banner{
+    display: flex;
+    justify-content: center;
+}
+.category .category_Shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.category .category_Shop .line1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.category .category_Shop .line1 button{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+.category .category_Shop .line1 p {
+    display: flex;
+    gap: 20px;
+    color: gray;
+}
+.category .category_Shop .line1 p span{
+    color: #000000;
+}
+.category .category_items{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 30px;
+    
+}

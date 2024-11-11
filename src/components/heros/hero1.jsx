@@ -4,7 +4,7 @@ import './hero1.css'
 
 function Hero1() {
     return (
-        <div className="main">
+        <div className="main1">
             <div className="left">
                 <div className="discription">
                     <div className="date">december 10-28</div>

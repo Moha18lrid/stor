@@ -4,7 +4,9 @@ import Navbar from './components/navbar/navbar';
 import Shop from './pages/shop';
 import Category from './pages/category';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import men_banner from './components/asset/banner_mens.png'
+import women_banner from './components/asset/banner_women.png'
+import kids_banner from './components/asset/banner_kids.png'
 
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop />} />
-          <Route path='/men' element={<Category category="mans" />} />
-          <Route path='/Women' element={<Category category="Women" />} />
-          <Route path='/Kids' element={<Category category="Kids" />} />
+          <Route path='/men' element={<Category banner={men_banner} category="men" />} />
+          <Route path='/Women' element={<Category banner={women_banner} category="women" />} />
+          <Route path='/Kids' element={<Category banner={kids_banner} category="kid" />} />
         </Routes>
       </BrowserRouter>
     </div>
