@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './item.css'
+import { Link } from "react-router-dom";
 function getTwoMainColors(imgElement) {
   return new Promise((resolve, reject) => {
     const canvas = document.createElement("canvas");
@@ -64,7 +65,7 @@ const Item = (props) => {
 
   return (
     <div className="item" id="item" style={{ background: gradientBackground }}>
-      <img src={props.imag} alt="" />
+      <Link to={`/product/${props.id}`}><img src={props.imag} alt="" /></Link>
       <div className="discription">
         <p>{props.titel}</p>
         <div className="price">

@@ -17,7 +17,7 @@ function Loginsingup() {
                     </label>
                 </div>
                 <button>Continue</button>
-                <p>Already have an acount <span>Login</span></p>
+                <p className='hveacount'>Already have an acount ?<span>Login</span></p>
             </div>
         </div>
     )

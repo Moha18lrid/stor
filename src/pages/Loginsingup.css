@@ -34,6 +34,10 @@
     background: #942301;
     color: white;
 }
+.LoginSingup .hveacount span{
+    font-weight: 600;
+    color: #942301;
+}
 .agreed{
     
     display: flex;
