@@ -10,6 +10,7 @@ import kids_banner from './components/asset/banner_kids.png'
 import Footer from './components/footer/footer';
 import Loginsingup from './pages/Loginsingup';
 import Product from './pages/Product';
+import Card from './pages/Card';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/men' element={<Category banner={men_banner} category="men" />} />
           <Route path='/Women' element={<Category banner={women_banner} category="women" />} />
           <Route path='/Kids' element={<Category banner={kids_banner} category="kid" />} />
+          <Route path='/Card' element={<Card/>} />
           <Route path='/product' element={<Product />}>
             <Route path=':productId' element={<Product />}/>
           </Route>

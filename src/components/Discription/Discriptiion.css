@@ -1,0 +1,22 @@
+.Produc_Discription{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+    margin-left: 300px;
+}
+.Produc_Discription .head{
+    display: flex;
+}
+.Produc_Discription .head .dis{
+    display: block;
+    padding: 20px;
+    border: 1px solid gray;
+}
+.Produc_Discription .body {
+    display: block;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+

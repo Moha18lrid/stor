@@ -65,7 +65,7 @@ const Item = (props) => {
 
   return (
     <div className="item" id="item" style={{ background: gradientBackground }}>
-      <Link to={`/product/${props.id}`}><img src={props.imag} alt="" /></Link>
+      <Link to={`/product/${props.id}`}><img onclick={window.scrollTo(0,0)} src={props.imag} alt="" /></Link>
       <div className="discription">
         <p>{props.titel}</p>
         <div className="price">

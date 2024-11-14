@@ -1,0 +1,18 @@
+.Related_Product .p-items{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+.Related_Product{
+  padding: 20px;  
+}
+.Related_Product h1{
+    display: flex;
+    justify-content: center;
+}
+.Related_Product hr{
+    width: 100%;
+    height: 1px;
+    background: black;
+}

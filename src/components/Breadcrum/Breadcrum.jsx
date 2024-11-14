@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Breadcrum.css'
+import { ShopContext } from '../context/ShopContext'
 
 const Breadcrum = (props) => {
     const {product} = props
+    const {AddToCard} = useContext(ShopContext)
     return (
         <div className='mai-Breadcrum'>
             <div class="container">
@@ -84,7 +86,7 @@ const Breadcrum = (props) => {
 
                                 <div class="product-btn-group">
                                     <div class="button buy-now"><i class='bx bxs-zap' ></i> Buy Now</div>
-                                    <div class="button add-cart"><i class='bx bxs-cart' ></i> Add to Cart</div>
+                                    <div onClick={()=>{AddToCard(product.id)}} class="button add-cart" ><i class='bx bxs-cart' ></i> Add to Cart</div>
                                     <div class="button heart"><i class='bx bxs-heart' ></i> Add to Wishlist</div>
                                 </div>
                             </div>
